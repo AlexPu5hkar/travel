@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .list li {
 	font-size: 18px;
 	margin: 0 0 15px 40px;
-	background: url('/src/img/flag.png') left no-repeat;
+	background: url('/src/img/flag') left no-repeat;
 	padding: 0 0 0 35px;
 }
 .list_regular {
@@ -100,5 +100,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	color:#90999c
 }
 button {
+	width: 200px;
+	height: 45px;
+	font-size: 25px;
 	background: #80b7b3;
+	border: 1px solid black;
+	border-radius: 20px;
+	justify-content: center;
+	margin: 0 0 95px 40px;
 }
