@@ -37,4 +37,68 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
-
+* {
+	background: #e8e8e8;
+	color: #273d46;
+	font-weight: 500;
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.page {
+	margin: 70px 350px 100px 350px;
+}
+.travel {
+	display: block;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size:18px;
+	color:#90999c;
+	margin-top: 40px;
+}
+.header {
+	display: block;
+	text-align: center;
+	font-weight: 900;
+	font-size: 25px;
+	margin-top: 30px;	
+}
+.image {
+	box-sizing: border-box;
+	width: 820px;
+	height: 540px;
+	background:url('/src/img/pic.png')0 0/ 100% auto no-repeat; 
+	border:2px solid white;
+	margin-top: 75px;
+	margin-bottom: 60px;
+}
+.text {
+	display: block;
+	padding: 0 45px;
+	margin-bottom: 60px;
+	font-size: 18px;
+}
+.list {
+	margin:0 0 65px 0 ;
+}
+.list li {
+	font-size: 18px;
+	margin: 0 0 15px 40px;
+	background: url('/src/img/flag.png') left no-repeat;
+	padding: 0 0 0 35px;
+}
+.list_regular {
+	font-weight: 600;
+}
+.list_blue {
+	color: #80b7b3;
+}
+.list_bold {
+	font-weight: 900;
+}
+.list_line-through {
+	text-decoration: line-through;
+	color:#90999c
+}
+button {
+	background: #80b7b3;
+}
